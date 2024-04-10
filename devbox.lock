@@ -1,51 +1,163 @@
 {
   "lockfile_version": "1",
   "packages": {
-    "ncdu@latest": {
+    "fd@latest": {
       "last_modified": "2024-03-22T11:26:23Z",
-      "resolved": "github:NixOS/nixpkgs/a3ed7406349a9335cb4c2a71369b697cecd9d351#ncdu",
+      "resolved": "github:NixOS/nixpkgs/a3ed7406349a9335cb4c2a71369b697cecd9d351#fd",
       "source": "devbox-search",
-      "version": "2.3",
+      "version": "9.0.0",
       "systems": {
         "aarch64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/w4nbpj2245j3gbph0zmg82lii3iyxaj3-ncdu-2.3",
+              "path": "/nix/store/wi2gyzpv6kn7dr5rp94hzizjia8byap3-fd-9.0.0",
               "default": true
             }
           ],
-          "store_path": "/nix/store/w4nbpj2245j3gbph0zmg82lii3iyxaj3-ncdu-2.3"
+          "store_path": "/nix/store/wi2gyzpv6kn7dr5rp94hzizjia8byap3-fd-9.0.0"
         },
         "aarch64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/q0j490g1d4k711wk3df0m37prdwfvrbs-ncdu-2.3",
+              "path": "/nix/store/p4qld2yjkprcy0iyadshpla5hhh86g7g-fd-9.0.0",
               "default": true
             }
           ],
-          "store_path": "/nix/store/q0j490g1d4k711wk3df0m37prdwfvrbs-ncdu-2.3"
+          "store_path": "/nix/store/p4qld2yjkprcy0iyadshpla5hhh86g7g-fd-9.0.0"
         },
         "x86_64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/sml3zfc5fwdp95p3wmzpipisw3s63jb0-ncdu-2.3",
+              "path": "/nix/store/1yzgfbaqrxy04sxarc4s82y3k9pb689c-fd-9.0.0",
               "default": true
             }
           ],
-          "store_path": "/nix/store/sml3zfc5fwdp95p3wmzpipisw3s63jb0-ncdu-2.3"
+          "store_path": "/nix/store/1yzgfbaqrxy04sxarc4s82y3k9pb689c-fd-9.0.0"
         },
         "x86_64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/cl8qx27yza82ad4vfs6nv9hmag4w8dqv-ncdu-2.3",
+              "path": "/nix/store/rym51bxaidl738b2nmxsd1hzr83wkk9a-fd-9.0.0",
               "default": true
             }
           ],
-          "store_path": "/nix/store/cl8qx27yza82ad4vfs6nv9hmag4w8dqv-ncdu-2.3"
+          "store_path": "/nix/store/rym51bxaidl738b2nmxsd1hzr83wkk9a-fd-9.0.0"
+        }
+      }
+    },
+    "hyperfine@latest": {
+      "last_modified": "2024-03-22T11:26:23Z",
+      "resolved": "github:NixOS/nixpkgs/a3ed7406349a9335cb4c2a71369b697cecd9d351#hyperfine",
+      "source": "devbox-search",
+      "version": "1.18.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/1560r5pida9qbvnz2vx6r4f6xii1vdn0-hyperfine-1.18.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/1560r5pida9qbvnz2vx6r4f6xii1vdn0-hyperfine-1.18.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/m8i4hkbqfhnam8rqmp7y81ilrsyxkflp-hyperfine-1.18.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/m8i4hkbqfhnam8rqmp7y81ilrsyxkflp-hyperfine-1.18.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/4j3fwvdq4jx3jrkbg06j3qdzzniacz7j-hyperfine-1.18.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/4j3fwvdq4jx3jrkbg06j3qdzzniacz7j-hyperfine-1.18.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/lx0a9amsscqk33cim89l5fypay9i501q-hyperfine-1.18.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/lx0a9amsscqk33cim89l5fypay9i501q-hyperfine-1.18.0"
+        }
+      }
+    },
+    "ranger@latest": {
+      "last_modified": "2024-03-25T12:46:37Z",
+      "resolved": "github:NixOS/nixpkgs/c726225724e681b3626acc941c6f95d2b0602087#ranger",
+      "source": "devbox-search",
+      "version": "1.9.3",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/656maffnqnbgvil15wsid9aqjw40av6n-ranger-1.9.3",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/1w2cpgvfy92f257p153l3lblmjgbmbi4-ranger-1.9.3-dist"
+            }
+          ],
+          "store_path": "/nix/store/656maffnqnbgvil15wsid9aqjw40av6n-ranger-1.9.3"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/9v18bmyg88y0m1fn9cqpqh9bldyj6957-ranger-1.9.3",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/vlag681lbj2kmryabb8c00gf6jxrv32w-ranger-1.9.3-dist"
+            }
+          ],
+          "store_path": "/nix/store/9v18bmyg88y0m1fn9cqpqh9bldyj6957-ranger-1.9.3"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/vlc5qh41pll3vizx156bvc6kmdmj6qdy-ranger-1.9.3",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/pzywmsqvn66ddlwf3kqxn9hjvx5gn4pp-ranger-1.9.3-dist"
+            }
+          ],
+          "store_path": "/nix/store/vlc5qh41pll3vizx156bvc6kmdmj6qdy-ranger-1.9.3"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/30z8v2bngiyw55dppwxmmqfilax9zc8a-ranger-1.9.3",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/hkifvyd28wbm6283n1m2mb2r7mfylbsg-ranger-1.9.3-dist"
+            }
+          ],
+          "store_path": "/nix/store/30z8v2bngiyw55dppwxmmqfilax9zc8a-ranger-1.9.3"
         }
       }
     }
