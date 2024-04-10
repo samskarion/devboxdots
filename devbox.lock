@@ -1,0 +1,53 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "ncdu@latest": {
+      "last_modified": "2024-03-22T11:26:23Z",
+      "resolved": "github:NixOS/nixpkgs/a3ed7406349a9335cb4c2a71369b697cecd9d351#ncdu",
+      "source": "devbox-search",
+      "version": "2.3",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/w4nbpj2245j3gbph0zmg82lii3iyxaj3-ncdu-2.3",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/w4nbpj2245j3gbph0zmg82lii3iyxaj3-ncdu-2.3"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/q0j490g1d4k711wk3df0m37prdwfvrbs-ncdu-2.3",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/q0j490g1d4k711wk3df0m37prdwfvrbs-ncdu-2.3"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/sml3zfc5fwdp95p3wmzpipisw3s63jb0-ncdu-2.3",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/sml3zfc5fwdp95p3wmzpipisw3s63jb0-ncdu-2.3"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/cl8qx27yza82ad4vfs6nv9hmag4w8dqv-ncdu-2.3",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/cl8qx27yza82ad4vfs6nv9hmag4w8dqv-ncdu-2.3"
+        }
+      }
+    }
+  }
+}
