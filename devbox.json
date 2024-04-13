@@ -3,7 +3,16 @@
   "packages": [
     "fd@latest",
     "hyperfine@latest",
-    "ranger@latest"
+    "ranger@latest",
+    "ncdu@latest",
+    "tldr@latest",
+    "bat@latest",
+    "lazygit@latest",
+    "broot@latest",
+    "procs@latest",
+    "direnv@latest",
+    "go@latest",
+    "tailscale@latest"
   ],
   "shell": {
     "init_hook": [
