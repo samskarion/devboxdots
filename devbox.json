@@ -15,16 +15,21 @@
     "tailscale@latest",
     "ripgrep@latest",
     "fzf@latest",
-    "neovim@latest"
+    "neovim@latest",
+    "lsd@latest",
+    "rustup@latest",
+    "tree-sitter@latest",
+    "bottom@latest",
+    "nodejs@latest",
   ],
   "shell": {
     "init_hook": [
-      "echo 'Welcome to devbox!' > /dev/null"
+      "echo 'Welcome to devbox!' > /dev/null",
     ],
     "scripts": {
       "test": [
-        "echo \"Error: no test specified\" && exit 1"
-      ]
-    }
-  }
+        "echo \"Error: no test specified\" && exit 1",
+      ],
+    },
+  },
 }
