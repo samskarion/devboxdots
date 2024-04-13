@@ -12,7 +12,10 @@
     "procs@latest",
     "direnv@latest",
     "go@latest",
-    "tailscale@latest"
+    "tailscale@latest",
+    "ripgrep@latest",
+    "fzf@latest",
+    "neovim@latest"
   ],
   "shell": {
     "init_hook": [
